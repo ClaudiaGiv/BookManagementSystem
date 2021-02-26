@@ -35,7 +35,7 @@ public class BookService {
         return bookRepository.findById(id);
     }
 
-    //find all
+    //find all = read books
     public List<Book> findAll() {
         return bookRepository.findAll();
     }
